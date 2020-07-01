@@ -1,0 +1,5 @@
+
+{{#each model as |user|}}
+  <button {{action 'login' user}}>Login</button>{{user.username}}--- {{user.mailId}}
+  <br>
+{{/each}}
