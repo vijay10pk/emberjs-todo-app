@@ -21,6 +21,7 @@ export default function() {
     // this.get('/posts/:id');
     this.patch('/todos/:id'); // or this.patch
     this.del('/todos/:id');
-    this.get('users');
+    this.get('/users');
+    this.get('/users/:id')
     
 }
